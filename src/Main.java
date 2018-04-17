@@ -23,12 +23,12 @@ import javax.swing.JFrame;
 public class Main {
     public static void main(String[] args) {
         
-//        Gui gui = new Gui();
-//        gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        gui.setSize(600,600);
-//
-//        gui.setVisible(true);
-//        gui.setTitle("Agencia de Viajes");
+        Gui gui = new Gui();
+        gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        gui.setSize(600,600);
+
+        gui.setVisible(true);
+        gui.setTitle("Agencia de Viajes");
         
         String fecha1 = "22/03/2017";
         DateFormat sdf = new SimpleDateFormat("dd/MM/yyyy  HH:mm:ss");
